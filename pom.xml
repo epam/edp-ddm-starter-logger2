@@ -17,6 +17,7 @@
     <jackson-databind.version>2.13.4</jackson-databind.version>
     <log4j.version>2.19.0</log4j.version>
     <spring-core.version>5.3.23</spring-core.version>
+    <spring-beans.version>5.3.23</spring-beans.version>
     <log4j.json.template.version>2.14.1</log4j.json.template.version>
     <logbook.starter.version>2.12.0</logbook.starter.version>
     <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
@@ -39,6 +40,11 @@
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
         <version>${spring-core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-beans</artifactId>
+        <version>${spring-beans.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
