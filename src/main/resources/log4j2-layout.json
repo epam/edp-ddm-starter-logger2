@@ -8,12 +8,12 @@
   },
   "X-B3-TraceId": {
     "$resolver": "mdc",
-    "key": "X-B3-TraceId",
+    "key": "traceId",
     "stringified": true
   },
   "X-B3-SpanId": {
     "$resolver": "mdc",
-    "key": "X-B3-SpanId",
+    "key": "spanId",
     "stringified": true
   },
   "X-Request-Id": {
